@@ -4,10 +4,52 @@
 	box-sizing:border-box;
 }
 
+/*cor:#75f542*/
+
 html, body{
 	height:100%;
+	font-size:20px;
 }
 
 body{
 	background-color:#75f542;
 }
+
+form{
+	width:60%;
+	padding:15px;
+	background-color:white;
+	position:absolute;
+	left:50%;
+	top:50%;
+	transform:translate(-50%,-60%);
+	border-radius:10px;
+	text-align:center;
+}
+
+form fieldset{
+	border:0;
+}
+
+form legend{
+	color:#75f542;
+	text-align:center;
+	font:1.7em bold;
+}
+
+form input{
+	width:80%;
+	height:30px;
+	padding:5px;
+	border-radius:5px;
+	border:none;
+	background-color:#ccc;
+	margin-bottom:10px;
+}
+
+form label{
+	display:inline-block;
+	text-align:left;
+	transform:translate(-75%);
+}
+
