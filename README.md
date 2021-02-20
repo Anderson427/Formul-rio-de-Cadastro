@@ -5,4 +5,4 @@ Formulário de Contanto
 *CSS;
 *JS;
 -
-Por enquanto são apenas essas tecnologias, mas vou no futuro pretendo melhorar o projeto!
+Por enquanto são apenas essas tecnologias, mas no futuro pretendo melhorar o projeto e implemantar mais tecnologias!
