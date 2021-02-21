@@ -44,12 +44,44 @@ form input{
 	border-radius:5px;
 	border:none;
 	background-color:#ccc;
-	margin-bottom:10px;
+	margin-bottom:15px;
 }
 
 form label{
-	display:inline-block;
+	display:block;
 	text-align:left;
-	transform:translate(-75%);
+	position:relative;
+	left:78px;
+	/*transform:translate(-75%);*/
 }
 
+form input[type=submit]{
+	background-color:#1260fc;
+	width:100px;
+	color:white;
+	cursor:pointer;
+	font-size:0.9em;
+	font-weight:bold;
+}
+
+form input[type=submit]:hover{
+	background-color:#0098f0;
+	transition:1s;
+}
+
+form .flex{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-around;
+	padding:0 10px 10px 0;
+
+}
+
+form .flex h3{
+	display:block;
+
+}
+
+form input[type=tel],form input#cep{
+	width:calc(30% + 0px);
+}

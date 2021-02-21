@@ -15,21 +15,38 @@
 			<fieldset>
 				<legend>Dados do usuário</legend>
 				<div>
-					<label for="name">Nome:</label><br>
+					<label for="name">Nome:</label>
 					<input type="text" name="name" id="name" 
 					required placeholder="Digite seu nome">
 				</div>
 
 				<div>
-					<label for="sobrenome">Sobrenome:</label><br>
+					<label for="sobrenome">Sobrenome:</label>
 					<input type="text" name="sobrenome" id="sobrenome" required placeholder="Digite seu sobrenome"> 
 				</div>
 
 				<div>
-					<label for="email">E-mail:</label><br>
+					<label for="email">E-mail:</label>
 					<input type="email" name="email" id="email" 
 					required placeholder="Digite seu email">
 				</div>
+
+				<div>
+					<label for="senha">Senha:</label>
+					<input type="password" name="password" 
+					id="password" 
+					required placeholder="Digite sua senha">
+				</div>
+
+				<div class="flex">
+					<input type="tel" name="tel" id="tel" 
+					placeholder="Digite seu telefone">
+
+					<input type="text" name="cep" id="cep"
+					placeholder="Digite seu CEP">
+				</div>
+
+				<input type="submit" value="Enviar" name="sub"> 
 			</fieldset>
 		</form>
 	</body>
